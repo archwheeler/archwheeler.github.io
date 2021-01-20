@@ -4,17 +4,10 @@ plugins:
   - jekyll-seo-tag
 
 collections:
-  topics:
-    output: true
   projects:
     output: true
 
 defaults:
-  - scope:
-      path: ""
-      type: "topics"
-    values:
-      layout: "topic"
   - scope:
       path: ""
       type: "posts"
