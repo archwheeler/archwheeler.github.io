@@ -5,7 +5,7 @@ layout: default
 
 {{ content }}
 
-<ul>
+<ul class="no-bullets">
   {% assign filtered_posts = site.posts | where: 'topic', page.title %}
   {% for post in filtered_posts %}
     <li>
