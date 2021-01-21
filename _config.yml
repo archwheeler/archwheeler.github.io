@@ -1,7 +1,3 @@
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
 collections:
   projects:
     output: true
@@ -32,3 +28,7 @@ social:
     - "https://github.com/archwheeler"
     - "https://www.linkedin.com/in/archie-wheeler/"
 locale: "en_GB"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
