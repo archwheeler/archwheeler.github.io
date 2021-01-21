@@ -35,7 +35,11 @@ nav a {
 }
 
 .profile img {
-    float: right;
+    float: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .no-bullets {
@@ -48,12 +52,11 @@ nav a {
     font-size: 14px;
 }
 
-@media screen and (max-width: 500px) {
+/* For desktop */
+@media only screen and (min-width: 675px) {
     .profile img {
-        float: inherit;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+        float: right;
+        width: 35%;
+        margin-left: 1em;
     }
 }
