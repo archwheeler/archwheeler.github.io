@@ -25,7 +25,7 @@ defaults:
 title: "Archie Wheeler"
 tagline: "My personal corner of the Web."
 description: "A personal website containing my information, projects, and thoughts."
-url: "archiewheeler.com"
+url: "https://archiewheeler.com"
 social:
   name: "Archie Wheeler"
   links:
