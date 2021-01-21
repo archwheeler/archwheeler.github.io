@@ -22,13 +22,13 @@ defaults:
     values:
       layout: "default"
 
-title: Archie Wheeler
-tagline: My personal corner of the Web.
-description: A personal website containing my information, projects, and thoughts.
-url: archiewheeler.com
+title: "Archie Wheeler"
+tagline: "My personal corner of the Web."
+description: "A personal website containing my information, projects, and thoughts."
+url: "archiewheeler.com"
 social:
-  name: Archie Wheeler
+  name: "Archie Wheeler"
   links:
-    - https://github.com/archwheeler"
-    - https://www.linkedin.com/in/archie-wheeler/
-locale: en_GB
+    - "https://github.com/archwheeler"
+    - "https://www.linkedin.com/in/archie-wheeler/"
+locale: "en_GB"
