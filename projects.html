@@ -6,7 +6,7 @@ title: Projects
   {% for project in my_projects %}
     <li>
         <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-        {{ project.year }} - {{ project.description }}
+        {{ project.year }} | {{ project.description }}
     </li>
   {% endfor %}
 </ul>
