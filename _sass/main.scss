@@ -36,7 +36,6 @@ nav a {
 
 .profile img {
     float: right;
-    padding: 0em 2em 2em 2em;
 }
 
 .no-bullets {
@@ -47,4 +46,14 @@ nav a {
     color: #666;
     line-height: 1;
     font-size: 14px;
+}
+
+@media screen and (max-width: 500px) {
+    .profile img {
+        float: inherit;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 }
