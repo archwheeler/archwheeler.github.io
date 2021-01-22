@@ -5,7 +5,7 @@ html {
 body {
     font-family: "Open Sans", Arial;
     color: #454545;
-    font-size: 16px;
+    font-size: 18px;
     margin: 2em auto;
     max-width: 800px;
     padding: 1em;
@@ -35,8 +35,11 @@ nav a {
 }
 
 .profile img {
-    float: right;
-    padding: 0em 2em 2em 2em;
+    float: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .no-bullets {
@@ -45,6 +48,15 @@ nav a {
 
 .info {
     color: #666;
-    line-height: 1;
-    font-size: 14px;
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+/* For desktop */
+@media only screen and (min-width: 675px) {
+    .profile img {
+        float: right;
+        width: 35%;
+        margin-left: 1em;
+    }
 }
