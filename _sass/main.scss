@@ -17,6 +17,10 @@ a {
     color: #07A;
 }
 
+nav {
+    margin-bottom: 2em;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -53,20 +57,13 @@ nav a {
     font-size: 16px;
 }
 
-.list {
-    margin-top: 2em;
-}
-
 /* For desktop */
 @media only screen and (min-width: 600px) {
-    .profile {
-        margin-top: 2em;
-
-        img {
-            float: right;
-            width: 35%;
-            margin-left: 1em;
-            margin-bottom: 1em;
-        }
+    .profile img {
+        float: right;
+        width: 35%;
+        margin-left: 1em;
+        margin-bottom: 1em;
     }
+    
 }
