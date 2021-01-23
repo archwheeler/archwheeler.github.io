@@ -59,10 +59,14 @@ nav a {
 
 /* For desktop */
 @media only screen and (min-width: 600px) {
-    .profile img {
-        float: right;
-        width: 35%;
-        margin-left: 1em;
-        margin-bottom: 1em;
+    .profile {
+        margin-top: 2em;
+
+        img {
+            float: right;
+            width: 35%;
+            margin-left: 1em;
+            margin-bottom: 1em;
+        }
     }
 }
